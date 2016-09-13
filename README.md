@@ -8,5 +8,4 @@ Logs tweets of specified user(s) to a json file and stdout.
 
 ###Requirements
 
-- requests
 - tweepy
