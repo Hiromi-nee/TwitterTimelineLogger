@@ -29,7 +29,7 @@ class StdOutListener(StreamListener):
                 sdata['text'] = p_json['text']
                 sdata['coordinates'] = p_json['coordinates']
                 sdata['source'] = p_json['source']
-                json.dump(data, jsonout, indent=4, sort_keys=True)
+                json.dump(p_json, jsonout, indent=4, sort_keys=True)
                 print( sdata )
         except Exception as some_exception:
             pass
