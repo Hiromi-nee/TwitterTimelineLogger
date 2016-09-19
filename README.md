@@ -9,3 +9,7 @@ Logs tweets of specified user(s) to a json file and stdout.
 ###Requirements
 
 - tweepy
+
+###Included Tools
+- `twitterid.py` Gets twitter id for given screen name
+    + Usage: `python twitterid.py screen_name`
